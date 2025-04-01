@@ -30,7 +30,7 @@ while contAlunos <= qtdAlunos:
     notaDois = int(input('Insira a segunda nota do aluno: '))
 
     media = (notaUm + notaDois)/qtdNotas
-    somaMedias += media
+    somaMedias += media #somaMedias = somaMedias + media
 
     if media < 3:
         print('Reprovado')
